@@ -102,10 +102,6 @@ Logstash.prototype.info = function info(message, fields) {
   this.log('info', message, fields);
 };
 
-Logstash.prototype.log = function debug(message, fields) {
-  this.log('info', message, fields);
-};
-
 Logstash.prototype.warn = function warn(message, fields) {
   this.log('warn', message, fields);
 };
